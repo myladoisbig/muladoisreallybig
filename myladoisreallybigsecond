@@ -10,7 +10,6 @@ local a,b,c=nil,nil,nil([[Boronide Obfuscation, discord.gg/boronide]]):gsub('(.*
 
 
 
-spawn(function()
 
 
 local godfuckers = 
@@ -123,7 +122,6 @@ spawn(function()
 end)
 
 
-end)
 
 
 
