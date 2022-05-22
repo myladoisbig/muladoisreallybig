@@ -86,7 +86,8 @@ userids = {
 [1395918423] = true, --ajsdbhujsabd
 [1066811164] = true, --asjdyhgbausdv
 [1185923777] = true, --ashgdvahsdv
-[2764805916] = true --15$giftcard 787000798152097803
+[2764805916] = true, --15$giftcard 787000798152097803
+[2452343965] = true --ajsdyausydasd
 
 }
 return userids
