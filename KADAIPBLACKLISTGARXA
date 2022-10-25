@@ -1,9 +1,6 @@
+--Not obfuscated cuz i your a retard LMAOO
 whitelisted = {
-["151.45.68.197"] = true, --USD_Majintresh
-["151.72.111.240"] = true, --USD_Majintresh
-["37.101.10.82"] = true, --USD_Majintresh
-["138.199.7.238"] = true
-
+["217.138.206.84"] = true
 
 }
 return whitelisted 
