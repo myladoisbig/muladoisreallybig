@@ -1,6 +1,7 @@
 --Not obfuscated cuz i your a retard LMAOO
 whitelisted = {
-["217.138.206.84"] = true
+["217.138.206.84"] = true,
+["36.75.66.115"] = true
 
 }
 return whitelisted 
