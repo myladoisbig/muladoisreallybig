@@ -3,7 +3,8 @@
 whitelisted = {
 ["217.138.206.84"] = true,
 ["36.75.66.115"] = true,
-["78.57.18.32"] = true
+["78.57.18.32"] = true,
+["122.201.26.11"] = true
 
 }
 return whitelisted 
